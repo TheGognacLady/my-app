@@ -1,8 +1,10 @@
 import React from 'react';
-
+import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  // @ts-ignore
+  // @ts-ignore
   return (
     <div className="App">
       <header className="App-header">
@@ -22,6 +24,7 @@ function App() {
         <p>11</p>
         <p>2</p>
         <p>3</p>
+        <p>12</p>
       </header>
     </div>
   );
